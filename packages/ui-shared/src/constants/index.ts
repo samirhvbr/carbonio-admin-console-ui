@@ -31,7 +31,7 @@ export const CARBONIO_HELP_ADVANCED_URL =
 	'https://docs.zextras.com/carbonio/html/administration.html';
 
 export const LOGIN_V3_CONFIG_PATH = '/zx/login/v3/config';
-export const CARBONIO_LOGO_URL = 'https://www.zextras.com';
+export const CARBONIO_LOGO_URL = 'https://blue3.com.br';
 export const LOCAL_STORAGE_LAST_PRIMARY_KEY = 'config';
 export const SCALING_OPTIONS = [
 	{ value: 75, label: 'xs' },

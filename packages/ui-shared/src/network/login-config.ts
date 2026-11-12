@@ -17,9 +17,7 @@ export const loginConfig = (): Promise<void> =>
 			if (favicon && favicon instanceof HTMLLinkElement) {
 				favicon.href = data.carbonioAdminUiFavicon
 					? data.carbonioAdminUiFavicon
-					: `${BASE_PATH}favicon.svg`;
+					: `${BASE_PATH}favicon.png`;
 			}
-			if (data.carbonioAdminUiTitle) {
-				document.title = data.carbonioAdminUiTitle;
-			}
+			document.title = data.carbonioAdminUiTitle || 'Blue3';
 		});

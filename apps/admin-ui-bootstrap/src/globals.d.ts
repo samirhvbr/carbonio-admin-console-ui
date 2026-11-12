@@ -35,6 +35,10 @@ type cliSettingsNamespace = {
 declare const devUtils: devUtilsNamespace | undefined;
 declare const cliSettings: cliSettingsNamespace | undefined;
 declare module '*.svg';
+declare module '*.png' {
+  const src: string;
+  export default src;
+}
 declare module '*.module.css' {
   const classes: { [key: string]: string };
   export default classes;

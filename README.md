@@ -15,6 +15,9 @@ It is organized as a monorepo of 12 admin modules and shared packages, managed w
 
 ```bash
 # Install dependencies
+
+This is the Blue3 fork. See [Blue3 branding](BLUE3-BRANDING.md) for defaults and configuration precedence.
+
 pnpm install
 
 # Build all applications

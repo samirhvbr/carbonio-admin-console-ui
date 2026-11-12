@@ -6,7 +6,7 @@
 import { type AppRoute, CARBONIO_LOGO_URL, useLoginConfigStore } from '@zextras/ui-shared';
 import React from 'react';
 
-import Logo from '../svg/carbonio-admin-panel.svg';
+import logoBlue3 from '../../assets/blue3-marca.png';
 import { CreationButton } from './creation-button';
 
 const styles = {
@@ -35,7 +35,7 @@ const ShellHeader = ({ activeRoute, children }: ShellHeaderProps) => {
           {logoSrc ? (
             <img src={logoSrc} alt="logo" style={{ height: '2rem' }} />
           ) : (
-            <Logo height="2rem" />
+            <img src={logoBlue3} alt="Blue3" style={{ height: '2rem' }} />
           )}
         </a>
         <CreationButton activeRoute={activeRoute} />

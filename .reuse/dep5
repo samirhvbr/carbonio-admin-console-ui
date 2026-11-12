@@ -197,3 +197,7 @@ License: CC-BY-NC-SA-4.0
 Files: packages/ui-components/src/icons/index.test.tsx
 Copyright: 2021 Zextras <https://www.zextras.com>
 License: AGPL-3.0-only
+
+Files: apps/admin-ui-bootstrap/assets/blue3-marca.png apps/admin-ui-bootstrap/assets/favicon.png apps/admin-ui-bootstrap/public/favicon.png packages/ui-shared/assets/favicon.png
+Copyright: 2026 Blue3
+License: CC-BY-NC-SA-4.0
